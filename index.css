@@ -10,11 +10,14 @@ body{
     background-color: navy;
     display: flex;
     justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
 }
 #nav>div{
     display: flex;
     margin-left: 15px;
     align-items: center;
+
 }
 
 #img{
@@ -22,13 +25,18 @@ body{
     width: 35%;
 
 }
-#logo{
+/* #logo{
     width: 15%;
     background-color: white;
     border-radius: 7px;
     margin-left: 80%;
+} */
+#logo{
+    color: white;
+    font-size: 35px;
+    /* border: 1px solid red; */
+    cursor: pointer;
 }
-
 #center{
     height: calc(100vh - 200px);
     width: 100vw;
@@ -40,6 +48,7 @@ body{
     height: 100%;
     position: relative;
 }
+
 #box{
     position: absolute;
     /* border: 1px solid green; */
@@ -80,11 +89,7 @@ body{
 }
 
 #footer{
-    /* margin-top: -4px; */
     min-height: 100px;
-    /* border: 1px solid red; */
-    /* margin: auto;
-    align-items: auto; */
    display: flex;
    justify-content: center;
    align-items: center;
@@ -96,7 +101,7 @@ body{
 }
 
 #random{
-    border: 2px solid navy;
+    background-image: linear-gradient(#536DFE, #76FF03, #E64A19);
     display: none;
     position: absolute;
     text-align: center;
@@ -104,15 +109,17 @@ body{
     border-radius: 15px;
     padding-bottom: 3px;
     z-index: 2000000;
-    left: calc(50% - 101px);
+    left: calc(50% - 100px);
     top: 2%;
+    padding: 5px;
 }
 #random img{
     width: 70%;
+    border-radius: 15px;
 }
 #random button{
-    padding: 12px 24px;
-    border-radius: 15px;
+    padding: 8px 44px;
+    border-radius: 25px;
     color: white;
     border: none;
     font-size: large;
@@ -127,10 +134,7 @@ body{
     
     }
     #logo{
-        width: 25%;
-        background-color: white;
-        border-radius: 7px;
-        margin-left: 40%;
+        font-size: 45px;
     }
     #box>p:nth-child(1){
         /* border: 1px solid black; */
@@ -157,29 +161,29 @@ body{
     #random{
         width: 40%;
         border-radius: 15px;
-        left: calc(50% - 90px);
+        left: calc(50% - 92px);
         top: 2%;
     }
     #random img{
-        width: 80%;
+        width: 50%;
     }
-    #random button{
+    /* #random button{
         padding: 10px 20px;
-    }
+    } */
 }
 
 @media all and (min-width: 441px) and (max-width: 600px) {
     #img{
         /* border: 1px solid red; */
-        width: 60%;
+        width: 40%;
     
     }
-    #logo{
+    /* #logo{
         width: 20%;
         background-color: white;
         border-radius: 7px;
         margin-left: 70%;
-    }
+    } */
     #box>p:nth-child(1){
         /* border: 1px solid black; */
         font-size: 40px;
@@ -204,32 +208,32 @@ body{
     }
 
     #random{
-        width: 40%;
+        width: 30%;
         border-radius: 15px;
-        left: calc(50% - 118px);
+        left: calc(50% - 87px);
         top: 2%;
     }
     #random img{
-        width: 80%;
+        width: 50%;
     }
-    #random button{
+    /* #random button{
         padding: 10px 20px;
-    }
+    } */
 }
 
 
 @media all and (min-width: 601px) and (max-width: 720px) {
     #img{
         /* border: 1px solid red;  */
-         width: 60%;
+         width: 40%;
     
     }
-    #logo{
+    /* #logo{
         width: 20%;
         background-color: white;
         border-radius: 7px;
         margin-left: 70%;
-    }
+    } */
     #box>p:nth-child(1){
         /* border: 1px solid black; */
         font-size: 50px;
@@ -254,15 +258,15 @@ body{
     }
 
     #random{
-        width: 30%;
+        width: 25%;
         border-radius: 15px;
-        left: calc(50% - 100px);
+        left: calc(50% - 85px);
         top: 2%;
     }
     #random img{
-        width: 70%;
+        width: 60%;
     }
-    #random button{
+    /* #random button{
         padding: 10px 20px;
-    }
+    } */
 }
