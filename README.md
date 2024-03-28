@@ -23,7 +23,7 @@ I give the object-fit: cover; property so that image cover all the remaining are
 I give overflow: hidden; property to the parent div due to this no scroll bar is coming even in x/y direction.
 I give position: relative; property to the parent div because relative does not leave it's space and take the position with respect to itself only.
 I give position: absolute; property to the div which is haveng Heading and button because absolute left it's space so it is not disturbing it's parent div and it's takes position with respect to it's nearest positioned parent and I am trying to keep this div middle in all the screeen sizes dinamically with the help calc().
-I give opacity property to the image so that it's look like transparent.
+I give opacity property to the image so that it's look like transparent. 
 
 
 
